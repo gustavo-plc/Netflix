@@ -39,4 +39,3 @@ netflix_df = pd.read_csv('/home/gustavo-plc/PycharmProjects/Netflix/netflix_data
 # Sol: There is a column that has this values for all movies. I can plot a histogram that has the movie duration in the x
 #     axis and the absolute frequency. The year will be filtered to start on 1990 and finish on 1999
 
-netflix_lite = netflix_df.loc[]
