@@ -30,3 +30,13 @@ import matplotlib.pyplot as plt
 
 # Read in the Netflix CSV as a DataFrame
 netflix_df = pd.read_csv('/home/gustavo-plc/PycharmProjects/Netflix/netflix_data.csv')
+
+# FIRST QUESTION:
+#
+# What was the most frequent movie duration in the 1990s? Save an approximate answer as an integer called duration
+# (use 1990 as the decade's start year).
+
+# Sol: There is a column that has this values for all movies. I can plot a histogram that has the movie duration in the x
+#     axis and the absolute frequency. The year will be filtered to start on 1990 and finish on 1999
+
+netflix_lite = netflix_df.loc[]
